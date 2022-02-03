@@ -1,0 +1,6 @@
+org\qa\amazon\base\ExcelFileRead.class
+org\qa\amazon\seleniumutility\UtilityFile.class
+org\qa\amazon\base\Propertyinitialization.class
+org\qa\amazon\base\ExcelFileRead$1.class
+org\qa\amazon\base\Browserfactory.class
+org\qa\amazon\pompages\LoginPage.class
