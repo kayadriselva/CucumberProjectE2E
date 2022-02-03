@@ -76,8 +76,9 @@ string4 = getdata.get("LoggedUser");
 @Then("print the value")
 public void print_the_value() {
     System.out.println(string2);
-    System.out.println(string3);
     System.out.println(string4);
+    System.out.println(string3);
+    System.out.println("test");
 }
 
 
