@@ -11,9 +11,9 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"org.qa.amazon.testcases", "org.qa.amazon.hooks"},
 		monochrome=true,
 		dryRun=false,
-		plugin= {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+		plugin= {"pretty", "html:target/cucumber-report/cucumber.html"}
 		)
-		
+		//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 public class RunnerFile {
 
 }
